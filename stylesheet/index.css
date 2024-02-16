@@ -1,0 +1,716 @@
+ @import url('https://fonts.cdnfonts.com/css/snow-deep');
+ @import url('https://fonts.cdnfonts.com/css/mooli');
+   @import url('https://fonts.cdnfonts.com/css/elisabethische');
+ @import url('https://fonts.cdnfonts.com/css/freich');
+ @import url('https://fonts.cdnfonts.com/css/noto-sans-tagalog');
+
+                
+
+                
+
+                
+ 
+
+                
+
+                
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 300px;
+    /* background-color: black; */
+    margin: 0;
+    /* padding-top: 5em ; */
+}
+
+#logo{
+    color: white;
+    font-size: 30px;
+    font-family: 'Snow Deep', sans-serif;                                             
+}
+
+#btn{
+    margin-left: 10px;
+    width: 16%;
+    height: 29px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2f313f;
+    color: white;
+}
+
+#svg{
+    padding-top: 7px;
+}
+
+header{
+    /* background-color: white; */
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+header.scrolled{
+    background-color: white;
+    opacity: 0.98;
+}
+
+header nav{
+    padding: 1.5em 0 1.5em 5em;
+    width: 50%;
+    height: 70px;
+    justify-content: space-between;
+    /* background: 0,0,0,0.6; */
+}
+
+#navleft{
+    width: 50%;
+    margin-left: 9%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 27px;
+    font-family: 'Mooli', sans-serif;
+    transition: color 0.4s ease-in-out;
+}
+
+header.scrolled nav a{
+    color: black;
+}
+
+div{
+    height: 1500px;
+    padding: 2em 6em2em 6em;
+}
+
+p{
+    font-size: 1.4em;
+    color: white;
+}
+
+.hero{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.315),rgba(0, 0, 0, 0.281)),url(/images/boltimage.webp);
+     background-size: cover;
+     background-position: center; 
+
+}
+
+.heroleft{
+    margin-top: 7%;
+    width: 50%;
+    /* background-color: aqua; */
+    height: 400px;
+}
+
+.heroleft h1{
+    margin-left: 15%;
+    color: white;
+    width: 60%;
+    font-size: 60px;
+    font-family: 'Elisabethische', sans-serif;                                              
+}
+
+.heroleft p{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 3%;
+
+}
+
+#herobtn2{
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 40px;
+    border-radius: 10px 20px;
+    border: none;
+    width: 19%;
+    background-color: #1d965c;
+}
+
+.EMWB{
+    width: 100%;
+    background-color: white;
+}
+
+.EMWB h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 11%;
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.774);                                              
+}
+
+.EMWBtop{
+    width: 40%;
+    height: 40px;
+    
+    margin-left: 29%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.Driver{
+    width: 13.3%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    color: rgba(0, 0, 0, 0.418);
+    border-radius: 20px;
+    margin-left: 8%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 2%;
+}
+
+
+.Courier{
+    width: 13.3%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    margin-right: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    color: rgba(0, 0, 0, 0.418);
+}
+
+.Fleet{
+    width: 23.3%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    color: rgba(0, 0, 0, 0.418);
+    margin-right: 1%;
+
+}
+
+.Resturant{
+    width: 35.3%;
+    height: 40px;
+    margin-right: 3%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    color: rgba(0, 0, 0, 0.418);
+    margin-right: 2%;
+}
+
+.EMWBcontainer{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 1%;
+    display: flex;
+    /* background-color: black; */
+}
+
+.EMWBcontainerleft{
+    width: 50%;
+    margin-top: 7%;
+    
+}
+
+.EMWBcontainerright{
+    width: 50%;
+   
+
+}
+
+.EMWBcontainerright h2{
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    margin-left: 19%;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.781);
+    margin-top: 7%;
+}
+
+.EMWBcontainer img{
+    max-width: 100%;
+    height: auto;
+}
+
+.EMWBcontainerrightcontent{
+    width: 60%;
+    margin-left: 20%;
+}
+.boxes{
+  width: 100%;
+  height: 400px;
+  /* background-color: #1d965c; */
+}
+
+ .box1{
+    margin-top: 9%;
+    height: 100px;
+    width: 100%;  
+    
+}
+
+.box2{
+    margin-top: 9%;
+    height: 100px;
+    width: 100%;  
+}
+
+
+
+.box1top{
+    display: flex;
+    height: 4px;
+   
+}
+
+.box2top{
+    display: flex;
+    height: 30px;
+    margin-top: 4%;
+}
+
+
+.number{
+    background-color: #1d965c;
+    width: 7%;
+    height: 21px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    color: white;
+    margin-top: 1.2%;
+
+}
+
+.box1 span{
+    margin-left: 6%;
+    font-size: 17px;
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   font-weight: 503;
+   color: rgba(0, 0, 0, 0.774);
+   
+
+}
+
+.box2 span{
+    margin-left: 6%;
+    font-size: 17px;
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   font-weight: 503;
+   color: rgba(0, 0, 0, 0.774);
+   
+
+}
+
+/* .boxesh2div{
+    color: #1d965c;
+    width: 125%;
+    height: 20px;
+    margin-right: 6%;
+} */
+
+.box1 h3{
+    width: 135%;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.589);
+    font-family: 'Noto Sans Tagalog', sans-serif;                                            
+   padding-right: 8%;
+   margin-top: 9%;
+   margin-left: 14%;
+}
+
+.box2 h2{
+    width: 155%;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.589);
+    font-family: 'Noto Sans Tagalog', sans-serif;                                            
+   padding-right: 8%;
+   margin-top: 9%;
+   margin-left: 14%;
+}
+
+#boxesbtn{
+    margin-left: 30px;
+    width: 35.3%;
+    height: 40px;
+    border-radius: 20px;
+    border: none; 
+    margin-top: 5%;
+    font-family: 'Noto Sans Tagalog', sans-serif;  
+    font-weight: 600;
+}
+
+.OS{
+    width: 100%;
+    height: 500px;
+    margin-top: 15%;
+    /* background-color: #1d965c; */
+}
+
+.OS h2{
+    display: flex;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.836);
+    align-items: center;
+    justify-content: center;
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.cardcontainer{
+    width: 90%;
+    height: 400px;
+    /* background-color: #2f313f; */
+    margin-left: 6%;
+    margin-top: 3%;
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 3px; */
+}
+
+.card1{
+    width: 85%;
+    /* height: auto; */
+    height: 220px;
+    background-color: whitesmoke;
+    margin-left: 8%;
+    border-radius: 8%;
+    margin-bottom: 4%;
+    /* display: flex; */
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    
+  }
+
+.card1 p{
+    color: rgba(0, 0, 0, 0.76);
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 18px;
+    margin-left: 5px;
+}
+.card1 span{
+    font-size: 17px;
+    width: 7%;
+    color: rgba(0, 0, 0, 0.562);
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+}
+
+.shrink{
+    width: 70%;
+    /* background-color: #2f313f; */
+    height: auto;
+    margin-left: 6%;
+}
+
+#cimg{
+    margin-left: 53%;
+    height: 90px;
+}
+ 
+#cimg2{
+    margin-left: 64%;
+    height: 98px;
+}
+
+#cimg3{
+    margin-left: 74%;
+    height: 98px;
+}
+
+.MCFPNC{
+    width: 100%;
+    height: 500px;
+    margin-top: 9%;
+    display: flex;
+
+}
+
+.MCFPNC-left{
+    width: 40%;
+    height: 500px;
+    margin-left: 5%;
+    /* background-color: #2f313f; */
+}
+
+.MCFPNC-left span{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 4%;
+    color: rgba(0, 0, 0, 0.829);
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.MCFPNC-left h4{
+    width: 70%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.377);
+    margin-left: 8%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 4%;
+
+}
+
+.MCFPNC-leftboxes{
+    width: 100%;
+    height: 300px;
+    /* background-color: #1d965c; */
+}
+
+.Mbox1{
+    width: 70%;
+    height: auto;
+    margin-left: 9%;
+    margin-top: 4%;
+    
+}
+.Mbox2{
+    width: 70%;
+    height: auto;
+    margin-left: 9%;
+    margin-top: 4%;
+    
+}
+.Mbox3{
+    width: 70%;
+    height: auto;
+    margin-left: 9%;
+    margin-top: 4%;
+    
+}
+
+.Mbox1top{
+    display: flex;
+    height: auto;
+    /* background-color: black; */
+
+}
+
+.Mbox1 h5{
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 17px;
+    width: 120%;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.589);
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.Mbox2 h5{
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 17px;
+    width: 110%;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.589);
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.Mbox3 h5{
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 17px;
+    width: 110%;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.589);
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.Mbox1top h3{
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   margin-top: 4%;
+   margin-left: 17px;
+   color: rgba(0, 0, 0, 0.788);
+   font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+}
+
+
+.Mnumber{
+    background-color: #1d965c;
+    width: 6%;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    color: white;
+    margin-top: 5%;
+
+}
+
+.MCFPNC-right{
+    width: 50%;
+    height: 500px;
+    /* background-color: #2f313f; */
+}
+
+.MCFPNC img{
+    width: 82%;
+    margin-left: 12%;
+    margin-top: 11%;
+}
+
+#MCFPNCbutton{
+    margin-left: 10%;
+    width: 23%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.719);
+    color: black;
+    margin-top: 6%;
+    
+}
+
+.World{
+    width: 100%;
+    /* height: 600px; */
+    background-color: whitesmoke;
+    margin-top: 16%;
+    /* background-image: url(https://bolt.eu/static/world-map-optimized-6338bdae39fa9d215fb417b5845792a7.svg); */
+    
+}
+
+.Worldmap{
+    background-image: url(https://bolt.eu/static/world-map-optimized-6338bdae39fa9d215fb417b5845792a7.svg);
+    overflow: hidden;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    height: 700px;
+
+}
+
+.World h1{
+    font-size: 45px;
+    padding-top: 6%;
+}
+
+.World h2{
+    font-size: 20px;
+    width: 69%;
+    margin-left: 18%;
+    margin-top: 2%;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.815);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
+
+
+}
+
+.World h3{
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 20px;
+    /* width: 62%; */
+    margin-left: 39%;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Worldbottom{
+    width: 70%;
+    height: 200px;
+    /* background-color: #2f313f; */
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Wbox1{
+    width: 20%;
+    height: 100px;
+    /* background-color: black; */
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#wboxbtn{
+    margin-left: 44%;
+    height: 40px;
+    width: 10%;
+    font-weight: 900;
+    /* color: rgba(0, 0, 0, 0.726); */
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.808);
+    border: none;
+    color: green;
+}
+
+.Wbox1 p{
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+    color: black;
+    font-weight: 700;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    width: 100%;
+       font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.Wbox1 span{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 130%;
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 18px;
+    font-family: euclidCircularB,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    
+
+}
+
+.Wbox1top{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 3%;
+    /* background-color: #2f313f; */
+}
+
+#check{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #1d965c;
+    font-size: 30px;
+    margin-left: 30%;
+}
